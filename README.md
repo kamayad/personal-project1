@@ -1,2 +1,2 @@
 # personal-project1
-Personal Project
+Personal Project Interest Blog
