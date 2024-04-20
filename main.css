@@ -7,21 +7,26 @@ body
     font-family: Times;
     padding: 20px;
     background: #95b288;
+    color: #52614b;
 }
 /* blog header/title */
 .header
 {
     padding: 30px;
     font-size: 40px;
+    margin:15px;
     text-align: center;
-    color: #95b288
     background: white;
 }
 
 /* Card effect for different entries/sections*/
 .card
 {
+    text-align: center;
     background-color: white;
-    padding: 20px;
-    margin-top: 20px;
+    height: 250px;
+    width: 253px;
+    padding: 25px;
+    margin: 15px;
+    float: left;
 }
