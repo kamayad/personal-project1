@@ -2,31 +2,150 @@
 {
     box-sizing: border-box;
 }
+
 body
 {
     font-family: Times;
     padding: 20px;
-    background: #95b288;
-    color: #52614b;
+    background: #fedfc9;
+    color: #fff2ea;
 }
+
+/* formatting for links no color change/blue purple*/
+a.links:link
+{
+    color: #fff2ea;
+    text-decoration: none;
+}
+
+a.links:visited
+{
+    color: #fff2ea;
+    text-decoration: none;    
+}
+
+a.links:hover
+{
+    color : #fedfc9;
+    text-decoration: none;
+    
+}
+
+a.links:active
+{
+    color: #fff2ea;
+    text-decoration: none; 
+}
+
 /* blog header/title */
 .header
 {
+    background-color: white;
+    border-radius: 25px;
     padding: 30px;
     font-size: 40px;
-    margin:15px;
+    margin:2.6%;
     text-align: center;
-    background: white;
+    color : #fedfc9;
 }
+
+#headCard
+{
+    background-image: url(header/alaska.jpeg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
 
 /* Card effect for different entries/sections*/
 .card
 {
+    border-radius: 25px;
     text-align: center;
     background-color: white;
     height: 250px;
-    width: 253px;
-    padding: 25px;
-    margin: 15px;
+    width: 28%;
+    padding: 55px;
+    margin: 2.6%;
     float: left;
+}
+
+/* Card backgrounds for specific section*/
+#seoul
+{
+    background-image: url(Seoul/IMG_0834.JPG);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+#thailand
+{
+    background-image: url(Thailand/IMG_1406.JPG);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+#japan
+{
+    background-image: url(Japan/river.jpeg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+#cooking
+{
+    background-image: url(Cooking/soba.jpeg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+#baking
+{
+    background-image: url(Baking/thumbprint.jpeg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+#pnw
+{
+    background-image: url(PNW/IMG_2542.JPG);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+#crafts
+{
+    background-image: url(Crafts/crochetPlant.jpeg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+#nature
+{
+    background-image: url(Nature/IMG_8041.JPG);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+
+#pets
+{
+    background-image: url(Pets/omar.jpeg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
 }
