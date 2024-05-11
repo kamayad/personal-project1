@@ -70,82 +70,53 @@ a.links:active
     padding: 55px;
     margin: 2.6%;
     float: left;
+    /*picture settings*/
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
 }
 
 /* Card backgrounds for specific section*/
 #seoul
 {
     background-image: url(Seoul/IMG_0834.JPG);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
 #thailand
 {
     background-image: url(Thailand/IMG_1406.JPG);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
 #japan
 {
     background-image: url(Japan/river.jpeg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
 
 #cooking
 {
     background-image: url(Cooking/soba.jpeg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
 
 #baking
 {
     background-image: url(Baking/thumbprint.jpeg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
 
 #pnw
 {
     background-image: url(PNW/IMG_2542.JPG);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
+
 #crafts
 {
     background-image: url(Crafts/crochetPlant.jpeg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
+
 #nature
 {
     background-image: url(Nature/IMG_8041.JPG);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
 
 #pets
 {
     background-image: url(Pets/omar.jpeg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
