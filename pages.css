@@ -1,0 +1,65 @@
+*
+{
+    box-sizing: border-box;
+}
+
+/* main text settings*/
+#pages
+{
+   color: #823300; 
+}
+
+
+/* sidebar */
+.sidebar 
+{
+    left-margin: 20px;
+    height: 275px;
+    width: 110px;
+    position : fixed; 
+    left: 40px;
+    background-color: #fff2ea;
+    overflop-x: hidden; /*disable horizontal scroll */
+    padding-top: 30px;
+    border-radius: 25px;
+ 
+}
+
+/* menu link formatting */
+.sidebar a
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    front-size: 30px;
+    color: #823300;
+    display: block;
+}
+
+.sidebar a:hover
+{
+    color: #ff9f5f;
+}
+
+.content
+{
+}
+/* main text/article formatting */
+.colmn
+{
+    float: left;
+    width: 75%;
+}
+
+.content
+{
+    left: 50px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 20px;
+    border-radius: 25px;
+
+}
+
+

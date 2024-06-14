@@ -3,8 +3,9 @@
 <html>
 
 <head>
-    <link rel = "stylesheet" href= "seoul.css">
+    <link rel = "stylesheet" href= "pages.css">
     <link rel = "stylesheet" href= "main.css">
+    <link rel = "stylesheet" href = "Seoul.css">
 </head>
 
 <body id="pages">
@@ -23,25 +24,170 @@
   <a href= "#Attractions">Attractions</a>
 </div>
 
-
+<!--body section of the document - page content--> 
 <div class="column">
   <div class = "content">
-    <h2>Background</h2>
-    <p>I got accepted into Korea University as an international transfer student, so I went to Seoul to study for two years. I was supposed to graduate from KU but due to many factors I wasn't able to complete my degree. I didn't love the school life but I had a really good time living in Seould because of the abundance of places to explore, as well as the vegan cafes and restaurants.
+
+    <div class="Background" id = "Background">
+      <h2>Background</h2>
+    </div>
+
+    <p>I got accepted into Korea University as an international transfer student, so I went to Seoul to study for two years. I was supposed to graduate from KU but due to many factors I wasn't able to complete my degree there. I didn't love the school life but I had a really good time living in Seould because of the abundance of places to explore, as well as the vegan cafes and restaurants.
     </p>
-    <h2>Restaurants</h2>
+
+    <div class="Restaurants" id = "Restaurants">
+      <h2>Restaurants</h2>
+    </div>
     <p>It's surprising how many vagan restaurants there are in Seoul.</p>
+    <h4>My Top Five Vegan Restaurants</h4>
+
+    <!-- name, descriptoions, location, food, etc of restaurant recs -->
+    <ol>
+      <li>NAMMI Plant Lab</li>
+      <!-- image slideshow for food pictures -->
+      <div class = "slide-container">
+
+        <!-- images for slideshow -->
+        <div class = "carosel">
+          <img src = "IMG_1011.JPG" style = "width:100%">
+        </div>
+        <div class = "carosel">
+          <img src = "IMG_1012.JPG" style = "width:100%">
+        </div>
+        <div class = "carosel">
+          <img src = "IMG_4101.JPG" style = "width:100%">
+        </div>
+        <div class = "carosel">
+          <img src = "IMG_1877.JPG" style = "width:100%">
+        </div>
+        <div class = "carosel">
+          <img src = "IMG_2358.JPG" style = "width:100%">
+        </div>
+
+        <!-- next and prev -->
+        <button id = "previous" class  = "btn">p</button>
+        <button id = "next" class = "btn">n</button>
+      </div>
+
+
+
+      <p>Location: Sadang Station Exit 11</p>
+      <p>Main dishes offered: pasta, pizza, salads</p>
+      <h4>Favorite Menu Items:</h4>
+      <ul>
+        <li>Margherita Pizza</li>
+          <p>"Tomato sauce, cheese, basil, black olive, balsamic glaze"</p>
+        <li>Potato Wedges</li>
+          <p>"Fried potato wedges, cajun seasoning, NAMMI garlic mayo"</p>
+        <li>Green Pumpkin Pasta</li>
+          <p>"Zucchini, sweet pumpkin, cream sauce, garlic, parmesan, shallot pickle"</p>
+      </ul>
+      <li>Abandoned Sandwich</li>
+        <p>Location: Hongdae / Yeonam</p>
+        <p>Main dishes offered: Sandwiches, plates</p>
+        <h4>Favorite Menu Items:</h4>
+        <ul>
+          <li>The Second Hill</li>
+            <p>"Lemon mayo, Spinach tofu, teriyaki tempeh, topped with a spread of almond ricotta cheese on chiabata bread"</p>
+          <li>Tzatziki Sauce and Roasted Vegetables Plate</li>
+            <p>"Seasonal Roasted vegetables with tzatziki sauce and pita bread"</p>
+        </ul>
+      <li>Loving Hut</li>
+        <p>Locations: Seoul (Maebong Station), Ansan (Gojan Station)</p>
+        <p>Main dishes offered: Traditional Korean food (hanshik), western food</p>
+        <h4>Favorite Menu Items:</h4>
+        <ul>
+          <li>Jajangmyeon</li>
+            <p>"Black bean sauce noodles topped with cucumber"</p>
+          <li>Soy Cutlet</li>
+            <p>"Tonkatsu style soy cutlet served with red sauce and cabbage slaw"</p>
+          <li>Vegan Tangsu</li>
+            <p>"Sweet and sour sauce with fried soy meat"</p>
+          <li>Vegan Gelato</li>
+            <p>Flavors include: blueberry, banana, vanilla, strawberry, chocolate, coffee walnut, almond mocha</p>
+      </ul>
+
+      <li>Little Gangster</li>
+      <p>Location: Hyochang Park Station</p>
+      <p>Main dishes offered: fusion cuisine</p>
+      <h4>Favorite Menu Items:</h4>
+      <ul>
+        <li>Cold Soba Noddle (seasonal)</li>
+        <p>"cold soba with a side of dumplings"</p>
+        <li>Thai Red Curry & Chickpea Corn Croquette</li>
+          <p>"Thai red curry with sweet pumpkin, purple rice, and a side of naan"</p>
+      </ul>
+     
+      
+      <li>Style Vegan</li>
+      <p>Location: Gangnam Station</p>
+      <p> Main dished offered: Burgers, Pizza, Tacos, fusion cuisine</p>
+     <h4>Favorite Menu Items:</h4>
+       <ul>
+         <li>Crazy Potato</li>
+         <p>"Loaded potatos with salsa, avocado, jalapeno, vegan cheese sauce"</p>
+         <li>Carne Asada Tacos</li>
+         <p>"Vegan carne Asada tacos served with a side of salsa, lime, and cilantro"</p>
+       </ul>
+    </ol>
+
+
+    <div class = "Cafes" id = "Cafes">
     <h2>Cafes</h2>
-    <p>One of my favorite things to do during the weekends or any time I had time off was going cafe hopping!</p?
-    <h2>Travel</h2>
+    </div>
+    <p>One of my favorite things to do during the weekends or any time I had time off was going cafe hopping!</p>
+    <h4>My Top Five Vegan Cafes</h4>
+      <ol>
+        <li>Bgomi Bakery</li>
+          <p>Location: Mangwon Station</p>
+          <h4>Favorite Menu Items: </h4>
+          <ul>
+            <li>Potato Curry Bread</li>
+            <li>Salt Butter Bread</li>
+            <li>Walnut traditional sweet</li>
+            <li>Grean Tea Latte</li>
+          </ul>
+          <p>I love the atmosphere in the cafe, although they moved locations since I last visited I'm sure it is as cute as ever! The bears Bgomi and Bbaeggomi are the characters that represent the couple who runs the shop.</p>
+        <li>Yong Tokki</li>
+          <p>Location: Kyeonghee University Station</p>
+          <h4>Favorite Menu Items: </h4>
+          <ul>
+            <li>Bear Shaped Brioch</li>
+              <p>There are usually around 3-4 flavors available</p>
+            <li>Salt Butter Bread</li>
+          </ul>
+          <p>Take out only, no steating available. Very cute little shop with a variety of baked goods, the owner is very nice. The bear brioch sell out often, so I reccomend pre-ordering by messaging them on instagram!</p>
+          
+        <li>Dalyang</li>
+          <p>Location: Hyehwa/Hansung University Station</p>
+          <h4>Favorite Menu Items: </h4>
+          <ul>
+            <li>Soy Milk Soft Serve</li>
+              <p>Choice of cone or cup</p>
+            <li>Tofu Tender Bahn Mi</li>
+            <li>Melon Soda</li>
+          </ul>
+          
+        <li>Achemi</li>
+        <li>OOH Breado</li>
+      </oli>
+
+    <div class = "Travel" id = "Travel">    
+      <h2>Travel</h2>
+    </div>
     <p>Outside of Seoul, I went to Ansan, Jeju-do, and Busan</p>
-    <h2>Attractions</h2>
+
+
+    <div class = "Attractions" id = "Attractions">
+      <h2>Attractions</h2>
+    </div>
     <p>The best part about living in Seoul is the convenient and cheap public transportation</p>
+
   </div>
 </div>        
 
 </body>
 
-
+<script src="main.js"></script>
 
 </html>
